@@ -1,0 +1,72 @@
+/* SIGNIN */
+.inpage {
+    width: 100%;
+    float: left;
+}
+
+.inpage h3 {
+    text-align: center;
+    padding-top: 60px;
+    float: left;
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.inpage .inpage_container {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.inpage .inpage_form {
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.inpage .inpage_form input {
+    color: #191919;
+    margin: 0 0 20px;
+    padding: 14px 10px;
+    width: 365px;
+    border: 1px solid black;
+    line-height: 1.42;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn_inpage {
+    border: 1px solid black;
+    background: none;
+    color: #000000;
+    padding: 14px 10px;
+    width: 30% !important;
+    margin: 0 0 20px;
+    outline: none;
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inpage .inpage_form .back_next {
+    text-decoration: underline;
+    transition: all 0.4s ease-in-out;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.inpage .inpage_link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+/* END SIGNIN */

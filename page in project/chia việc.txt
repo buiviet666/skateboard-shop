@@ -1,0 +1,4 @@
+1. Bùi Việt Anh - 
+2. Nguyễn Huy Đăng Doanh - đăng nhập
+3. Nguyễn Hữu Nam - đăng ký
+4. Nguyễn Trần Nam Thái - giỏ hàng (sau khi ấn icon, giỏ hàng page, page fill form) => xong thì làm about_us

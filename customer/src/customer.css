@@ -1,0 +1,233 @@
+.form_cart {
+    position: relative;
+    display: flex;
+}
+
+.form_cart .form_cart_info {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    background-color: #1D0F0F;
+    color: #fff;
+    height: 100vh;
+}
+
+.form_cart .form_cart_container {
+    padding: 55px 66px 21px;
+    display: grid;
+    width: 70%;
+}
+
+.form_cart .form_cart_tittle a {
+  font-size: 27px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .form_cart .form_cart_info-form {
+
+} */
+
+.form_cart .form_cart_footer-end {
+  border-top: 1px gray solid;
+}
+
+.form_cart .form_cart_product_info {
+  display: flex;
+  width: 60%;
+}
+
+.form_cart .form_area_contact {
+  width: 100%;
+  position: relative;
+}
+
+.form_cart .form_contact_tittle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form_cart .form_cart_position_content {
+  display: grid;
+  row-gap: 40px;
+  position: relative;
+}
+
+.form_cart .form_img_cart {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  overflow-x: auto;
+}
+
+.form_cart .form_cart_each_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px gray solid;
+  padding: 10px;
+}
+
+.form_cart .form_price_cart {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.form_cart .each_form_price_cart {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* INPUT CART FORM */
+.form_cart_input {
+    position: relative;
+    margin: 15px;
+  }
+
+.form_cart_input  input {
+    width: 97%;
+    color: #ff3e00;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent;
+    padding: 0.35em 0.45em;
+    border: 1px solid lightgrey;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+.form_cart_input input:focus {
+    outline: none;
+  }
+
+.form_cart_input span {
+    position: absolute;
+    background-color: #ff3e00;
+    transition: transform 0.5s ease;
+  }
+
+ .form_cart_input .bottom,
+ .form_cart_input .top {
+    height: 1px;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+  }
+
+ .form_cart_input .left,
+ .form_cart_input .right {
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    transform: scaleY(0);
+  }
+
+ .form_cart_input .bottom {
+    bottom: 0;
+    transform-origin: bottom right;
+  }
+
+ .form_cart_input input:focus ~ .bottom {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+
+ .form_cart_input .right {
+    right: 0;
+    transform-origin: top right;
+  }
+
+ .form_cart_input input:focus ~ .right {
+    transform-origin: bottom right;
+    transform: scaleY(1);
+  }
+
+ .form_cart_input .top {
+    top: 0;
+    transform-origin: top left;
+  }
+
+ .form_cart_input input:focus ~ .top {
+    transform-origin: top right;
+    transform: scaleX(1);
+  }
+
+.form_cart_input .left {
+    left: 0;
+    transform-origin: bottom left;
+  }
+
+.form_cart_input  input:focus ~ .left {
+    transform-origin: top left;
+    transform: scaleY(1);
+  }
+  /* END INPUT CART FORM */
+
+
+
+.btn_form_cart_p {
+  position: relative;
+  padding: 8px 16px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn_form_cart_p span {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+
+.btn_form_cart_p > div {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #ff3e00;
+  transition: 0.5s;
+}
+
+.btn_form_cart_p > div::after,
+.btn_form_cart_p > div::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+}
+
+.btn_form_cart_p > div::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+}
+
+.btn_form_cart_p > div::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: animate 10s linear infinite;
+}
+
+.btn_form_cart_p:hover > div {
+  top: -150px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+
+/* USER */
+
+/* END USER */

@@ -1,0 +1,11 @@
+- làm db
+- làm giao diện sản phẩm
+- làm trang quản lý admin
+
+------------------------------
+CHỨC NĂNG
+1. đăng nhập, đăng xuất, không đăng nhập
+2. phân quyền người dùng (admin, nhân viên, khách hàng)
+3. giỏ hàng (xem, thêm, sửa, xóa)
+4. thông tin cá nhân (xem, thêm, sửa, xóa)
+5. dashboard admin (xem thêm sửa xóa) -> nhân viên, sản phẩm.
